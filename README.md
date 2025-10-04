@@ -125,11 +125,11 @@ s = RuleSerializer.new({
   ]
 })
 
-s.condition
+puts s.condition
 ```
 Example output:
 ```
-"payment.amount is greater than or equal to 50 AND payment.currency is in EUR, USD"
+payment.amount is greater than or equal to 50 AND payment.currency is in EUR, USD
 ```
 
 ## Configuration
