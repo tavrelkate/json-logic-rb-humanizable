@@ -1,29 +1,40 @@
+# Json Logic Humanizable
 
+**Translate JsonLogic rules into readable sentences.** Extension for [JsonLogic](https://jsonlogic.com/).
+⚙️ Zero deps · 🧩 Mixin + Wrapper ·  🛠️ Configurable
 
-# json_logic_humanizable
+[![Gem Version](https://img.shields.io/gem/v/json_logic_humanizable.svg)](https://rubygems.org/gems/json_logic_humanizable) [![Docs](https://img.shields.io/badge/docs-rubydoc.info-blue)](https://www.rubydoc.info/gems/json_logic_humanizable) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-**Translate JsonLogic rules into readable sentences**. Extension for [JsonLogic](https://jsonlogic.com/).
 
 
 ## What
 
-This gem converts JsonLogic Rules into readable sentences. It is framework-agnostic.
+This gem converts JsonLogic Rules into readable sentences.
 - A mixin for serializer/presenter classes.
 - A small wrapper for one-off translations.
 
-No dependencies. Works with a Ruby Hash or a Ruby Json string.
+No dependencies. Works with a Ruby Hash.
 
 ## How
 
-Input: a JsonLogic rule (as a Hash or JSON string).
-Output: human-readable text that explains the JsonLogic Rule.
+Config => operators map + variables map
+Input  => JsonLogic Rule (Hash )
+Output => human-readable sentence
 
-Where this is useful:
 
-If you found this gem, you likely already know where to use it in your app — the abstract use case is simple: you want to read a rule as text (e.g., show it in the UI, preview it, or share it elsewhere).
+
+## Where
+
+If you found this gem, you likely already know where to use it in your app — the abstract use case is simple: you want to read a Rule as text (e.g., show it in the UI, preview it, or share it elsewhere).
 
 ## Installation
 
+### Plain Ruby
+```bash
+gem install json_logic_humanizable
+```
+
+### Rails (Bundler)
 Add to your `Gemfile` if you need:
 
 ```ruby
@@ -34,6 +45,15 @@ Then install:
 
 ```bash
 bundle install
+```
+
+Configuration (if needed)
+```ruby
+# config/initializers/json_logic.rb
+
+require "json_logic"
+
+# Config
 ```
 
 ## Examples
@@ -83,7 +103,7 @@ Example output:
 Amount is greater than or equal to 50 AND Currency is one of ["EUR", "USD"] AND Country is one of LT, LV, EE OR Vip is equal to true AND NOT (Blacklisted is equal to true) AND Score is less than or equal to 300 AND History Count is less than or equal to 1
 ```
 
-### Serializer example
+### Mixin – Humanizable in serializers
 
 ```ruby
 class RuleSerializer
