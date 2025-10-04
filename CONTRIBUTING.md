@@ -9,9 +9,9 @@
 ## How to contribute
 1. Fork the repo and create a branch from `main`
 2. Make your change (code, docs, or tests)
-3. Include examples for any new operators or pretty mappings
+3. Include examples for new operators or pretty mappings
 4. Update `README.md` if public behavior changes
-5. Run your tests
+5. Run your tests by `rake`
 6. Open a Pull Request and describe:
    - What changed and why
    - Any breaking impacts
