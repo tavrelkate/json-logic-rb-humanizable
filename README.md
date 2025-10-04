@@ -125,7 +125,6 @@ s = RuleSerializer.new({
   ]
 })
 
-# RuleSerializer includes methods:
 s.condition
 ```
 Example output:
