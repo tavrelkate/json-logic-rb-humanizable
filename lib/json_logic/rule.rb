@@ -15,7 +15,7 @@ module JsonLogic
     humanize_json_logic :logic
 
     def to_s
-      humanize_logic(@logic).to_s
+      humanize_logic(@logic)
     end
 
     def humanize
