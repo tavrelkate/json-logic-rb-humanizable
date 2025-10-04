@@ -1,6 +1,7 @@
 # Json Logic Humanizable
 
 **Translate JsonLogic rules into readable sentences.** Extension for [JsonLogic](https://jsonlogic.com/).
+
 ⚙️ Zero deps · 🧩 Mixin + Wrapper ·  🛠️ Configurable
 
 [![Gem Version](https://img.shields.io/gem/v/json_logic_humanizable.svg)](https://rubygems.org/gems/json_logic_humanizable) [![Docs](https://img.shields.io/badge/docs-rubydoc.info-blue)](https://www.rubydoc.info/gems/json_logic_humanizable) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
