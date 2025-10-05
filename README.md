@@ -20,7 +20,7 @@ No dependencies. Works with a Ruby Hash.
 ## How
 
 Config => operators map + variables map
-Input  => JsonLogic Rule (Hash )
+Input  => JsonLogic Rule (Hash)
 Output => human-readable sentence
 
 
@@ -55,7 +55,7 @@ Configuration (if needed)
 
 require "json_logic"
 
-# Config
+# Configuration
 ```
 
 ## Examples
