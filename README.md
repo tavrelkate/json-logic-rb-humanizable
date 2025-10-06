@@ -1,7 +1,7 @@
 
-# Json Logic Humanizable
+# json-logic-rb-humanizable
 
-**Translate JsonLogic rules into readable sentences.** Extension for [JsonLogic](https://jsonlogic.com/).
+Translate [JsonLogic](https://jsonlogic.com/) rules into readable sentences. Extension for [JsonLogic](https://jsonlogic.com/).
 
 ⚙️ Zero deps · 🛠️ Configurable · 🧩 Mixin + Wrapper
 
