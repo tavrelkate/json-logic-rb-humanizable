@@ -2,7 +2,7 @@
 require_relative "lib/json_logic/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "json_logic_humanizable"
+  spec.name          = "json-logic-rb-humanizable"
   spec.version       = JsonLogic::VERSION
   spec.authors       = ["Tavrel Kate"]
 
