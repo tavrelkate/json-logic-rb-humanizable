@@ -5,7 +5,7 @@ Translate [JsonLogic](https://jsonlogic.com/) rules into readable sentences. Ext
 
 ⚙️ Zero deps · 🛠️ Configurable · 🧩 Mixin + Wrapper
 
-[![Gem Version](https://img.shields.io/gem/v/json_logic_humanizable.svg)](https://rubygems.org/gems/json_logic_humanizable) [![Docs](https://img.shields.io/badge/docs-rubydoc.info-blue)](https://www.rubydoc.info/gems/json_logic_humanizable) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Gem Version](https://img.shields.io/gem/v/json_logic_humanizable.svg)](https://rubygems.org/gems/json_logic_humanizable) [![Docs](https://img.shields.io/badge/docs-rubydoc.info-blue)](https://rubygems.org/gems/json-logic-rb-humanizable) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 
 
