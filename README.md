@@ -33,14 +33,14 @@ If you found this gem, you likely already know where to use it in your app — t
 
 ### Plain Ruby
 ```bash
-gem install json_logic_humanizable
+gem install json-logic-rb-humanizable
 ```
 
 ### Rails (Bundler)
 Add to your `Gemfile` if you need:
 
 ```ruby
-gem "json_logic_humanizable"
+gem "json-logic-rb-humanizable"
 ```
 
 Then install:
